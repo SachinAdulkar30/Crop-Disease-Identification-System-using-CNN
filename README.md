@@ -1,143 +1,53 @@
-# HARVESTIFY 🌿
-#### A simple ML and DL based website which recommends the best crop to grow, fertilizers to use and the diseases caught by your crops.
-
-#### This project is featured on [Krish Naik's](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig) YouTube Channel => Check it out [here](https://www.youtube.com/watch?v=zJcSod-L-Ps)
+# HARVESTIFY - Crop Disease detection and Fertilizer suggestion using CNN 🌿
+Farmers in many parts of India are having trouble growing crops because of the climate and soil. There could be no genuine assistant available to assist them with encouraging the right sorts of plants using current advancement. Due to illiteracy, farmers may not be able to benefit from advances in agricultural science and continue using human methods. This makes it difficult to achieve the desired yield. For instance, improper fertilization or unintentional rainfall patterns may be the cause of crop failure. In such circumstances, picking crops that are suitable for the soil's current conditions and the anticipated rainfall during planting would be the best course of action. Thus, we are presenting an information mining-based "Soil-Based Profile Profiling Framework." In light of the rancher's region's precipitation and soil input boundaries (NPK and pH), we provide a list of possible yields. Additionally, it suggests fertilizer that can be utilized to increase crop yields and enhance the soil's quality. The growing problem of crop failure is the focus of this desktop application.
 
 ## DISCLAIMER ⚠️
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making farming decisions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML/DL into precision farming if developed at large scale and with authentic and verified data.
 
 ## MOTIVATION 💪
-- Farming is one of the major sectors that influences a country’s economic growth. 
+Farmers often face numerous challenges, such as unpredictable weather conditions, pests and diseases, and market fluctuations, which can make it difficult for them to make a decent living from their crops. However, despite these challenges, farmers continue to work hard to provide for their families and communities.
+The Harvestify project is a testament to the power of technology to improve people's lives. By creating a tool that is accessible and easy to use, the project team is empowering farmers to take control of their farming activities and make informed decisions that can lead to better outcomes.
+The dedication and hard work put into the Harvestify project is a reminder that even small actions can make a big difference in the world. 
+![image](https://github.com/SachinAdulkar30/Crop-Disease-Identification-System-using-CNN/assets/78402299/06b9bb3c-cd6b-4f4f-bb68-ad5981cd08e9)
+## OBJECTIVES
+To enable farmers to input and monitor data related to their crops, such as planting and harvesting dates, crop types, and yields.
+To provide a user-friendly web application for farmers to track their crops and farming activities.
+To help farmers make informed decisions about their farming activities by providing data analysis and visualization tools.
+To improve the efficiency and productivity of farming activities and identify areas for improvement.
+To encourage the adoption of digital technologies in agriculture by demonstrating the benefits of using such tools.
 
-- In country like India, majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield. 
-
-- In this project, I present a website in which the following applications are implemented; Crop recommendation, Fertilizer recommendation and Plant disease prediction, respectively. 
-
-    - In the crop recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow. 
-    
-    - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has excess of and will recommend improvements. 
-    
-    - For the last application, that is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
-
+![image](https://github.com/SachinAdulkar30/Crop-Disease-Identification-System-using-CNN/assets/78402299/e72686c1-66e1-4dc3-b61d-c319888c0334)
 ## DATA SOURCE 📊
 - [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
 - [Fertilizer suggestion dataset](https://github.com/Gladiator07/Harvestify/blob/master/Data-processed/fertilizer.csv) (custom built dataset)
 - [Disease detection dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset)
-
-## Notebooks 📓
-##### I have also published the corresponding code on Kaggle Notebooks.
-- [Crop Recommendation](https://www.kaggle.com/atharvaingle/what-crop-to-grow)
-- [Disease Detection](https://www.kaggle.com/atharvaingle/plant-disease-classification-resnet-99-2)
-
-# Built with 🛠️
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="30" src="https://github.com/tomchen/stack-icons/raw/master/logos/bootstrap.svg"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="30" src="https://symbols.getvecta.com/stencil_80/56_flask.3a79b5a056.jpg"></code>
-<code><img height="30" src="https://cdn.iconscout.com/icon/free/png-256/heroku-225989.png"></code>
-
-<code><img height="30" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg"></code>
-<code><img height="30" src="https://matplotlib.org/_static/logo2.svg"></code>
-<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/pytorch/pytorch/39fa0b5d0a3b966a50dcd90b26e6c36942705d6d/docs/source/_static/img/pytorch-logo-dark.svg"></code>
-
-## DEPLOYMENT 🚀
-
-#### Deployment is done using [deploy](https://github.com/Gladiator07/Harvestify/tree/deploy) branch
-#### This website is deployed at [Heroku](https://www.heroku.com/)
-#### You can access it [here](https://harvestify.herokuapp.com/)
-#### Note: The website may take a minute to load sometimes, as the server may be in hibernate state
-
-## How to use 💻
-- Crop Recommendation system ==> enter the corresponding nutrient values of your soil, state and city. Note that, the N-P-K (Nitrogen-Phosphorous-Pottasium) values to be entered should be the ratio between them. Refer [this website](https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/fertilizer-numbers-npk.htm) for more information.
-Note: When you enter the city name, make sure to enter mostly common city names. Remote cities/towns may not be available in the [Weather API](https://openweathermap.org/) from where humidity, temperature data is fetched.
-
-- Fertilizer suggestion system ==> Enter the nutrient contents of your soil and the crop you want to grow. The algorithm will tell which nutrient the soil has excess of or lacks. Accordingly, it will give suggestions for buying fertilizers.
-
-- Disease Detection System ==> Upload an image of leaf of your plant. The algorithm will tell the crop type and whether it is diseased or healthy. If it is diseased, it will tell you the cause of the disease and suggest you how to prevent/cure the disease accordingly.
-Note that, for now it only supports following crops
-
-<details>
-  <summary>Supported crops
-</summary>
-
-- Apple
-- Blueberry
-- Cherry
-- Corn
-- Grape
-- Pepper
-- Orange
-- Peach
-- Potato
-- Soybean
-- Strawberry
-- Tomato
-- Squash
-- Raspberry
-</details>
-
-## How to run locally 🛠️
-- Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
-- Clone the complete project with `git clone https://github.com/Gladiator07/Harvestify.git` or you can just download the code and unzip it
-- **Note:** The master branch doesn't have the updated code used for deployment, to download the updated code used for deployment you can use the following command
-  ```
-  ❯ git clone -b deploy https://github.com/Gladiator07/Harvestify.git 
-  ```
-- `deploy` branch has only the code required for deploying the app (rest of the code that was used for training the models, data preparation can be accessed on `master` branch)
-- It is highly recommended to clone the deploy branch for running the project locally (the further steps apply only if you have the deploy branch cloned)
-- Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
-  ```
-  conda create -n harvestify python=3.6.12
-  conda activate harvestify
-  pip install -r requirements.txt
-  ```
-- And finally run the project with
-  ```
-  python app.py
-  ```
-- Open the localhost url provided after running `app.py` and now you can use the project locally in your web browser.
-## DEMO
-
-- ### Crop recommendation system
-
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
-
-- ### Fertilizer suggestion system
-
-![demo](https://media.giphy.com/media/FLftUXMFo8N2bBjAXq/giphy.gif)
+- 
+## METHODOLOGY
+The sections that follow go into great detail about our application's implementation, dataset, and training data, as well as the machine learning that was used in our experiments. To begin, we demonstrate the user interface design of our application by employing flowcharts and block diagrams. After that, we move on to our AI tests, where we show off the various models we use and other trial nuances. The nested subsections that separate the two sections are recommendations for fertilizer, plant disease detection, and crop recommendations. The machine learning section provides an explanation of how we use LIME for interpretation, while the application section provides a description of the news feed implementation..
+A. The Application 
+1) The Recommendation for Fertilizer: Along with the crop name, the user must enter the nitrogen, phosphorus, and potassium values. To access the flask API, a POST request is made. The hosting location for the fertilizer recommendation classifier is here. The front-end receives an HTTP response and provides the user with a fertilizer recommendation. 
+2) Disease Discovery: In disease detection, the user must either directly upload an image or click on it. The model processes the image after it is sent to the back-end. An HTTP response is sent to the front-end after the image has been processed. The plant's cures for the disease are given to the user. Fig. 2 depicts the same's flow diagram.
+3) The Recommended Crop: A post request to the flask API is made after the values of nitrogen, phosphorus, and potassium are entered. After the model runs a HTTP reaction is shipped off the front-end which tells the best yield a rancher can fill in the dirt to get the best out of the land. Fig. The same's flow diagram can be seen in Figure 3.
+5) Disease Website: The disease portal provides a comprehensive overview of various plant diseases and the various products that can be purchased to treat them.
+6) Evaluation of Interpretability: The user's plant leaf image is sent to a deployed API, where the LIME computation is performed on a droplet server hosted on Digital Ocean. The resulting image is sent as a URI, and it is displayed on the front end.
+B. A Crop Machine Learning Proposal: The Set's Description: 
+This dataset, taken from Kaggle 1, is somewhat basic and contains few but important elements, not at all like the confused highlights influencing harvest yield. It has seven specific highlights, specifically N: The ratio of the nitrogen content of the soil, P: K: Temperature, phosphorus and potassium content of the soil in relation to one another: Celsius temperature and the amount of humidity: percent of relative mugginess, ph.: precipitation, the dirt's ph. value: mm of precipitation. The task is to expect the sort of reap using these 7 components. There are 2200 examples and 22 class names altogether, including the accompanying: Rice, coffee, muskmelon, and other foods The fact that each class has 100 samples demonstrates that the dataset is perfectly balanced and does not require any special imbalance handling techniques.Approach: Cross-validation on these five folds is carried out on the dataset, which is divided into folds. Six models are used to evaluate performance:
+•	Decision Tree with a maximum depth of 5 and entropy as the criterion
+•	The naive Bayes
+•	A SVM with an input scaling of 0 to 1, a degree 3 polynomial kernel, and the L2 regularization parameter C=3
+XGBoost can be found at Except for XGBoost, which is derived from the xgboost library, all of the models are implemented with the sklearn library. For the purposes of our training, the parameters that aren't mentioned are set to default. For the purpose of the application, we choose the model with the highest performance and use it for inference.
+Disease Recognition: Dataset Depiction: We look at the PlantVillage dataset for leaf disease detection. In particular, we make use of an enhanced version of the PlantVillage dataset that is available on Kaggle2. There are 87,000 RGB examples of both healthy and diseased crops in the dataset, each with a spread of 38 class labels. There are 14 crops included, and there are a total of 26 distinct diseases. Overall, each class contains 1850 picture tests with a standard deviation Of 104. The ratio of training to validation in the dataset has been divided into 80:20. With only a picture of the plant leaf, we try to predict the crop-disease pair. We resize the images to 224 x 224 pixels and reduce their size by 255 times. Figure depicts a sample batch from the PlantVillage dataset.  We perform both the model streamlining and expectations on these downscaled pictures. Approach: We employ three ImageNet-pretrained models for our experiments: VGG-16, ResNet-50, and EfficientNetB0. The ImageNet dataset performance of these models is influenced by their sizes, parameter counts, and performance. It has been shown that these pre-prepared models perform better compared to a model prepared without any preparation on the PlantVillage dataset. With an initial learning rate of 2e-5, beta values of (0.9, 0.999), and an epsilon of 1e-08, we employ the Adam optimization method with categorical cross-entropy loss during training.     A low learning rate is utilized to forestall the difference of the model and to safeguard crude picture channels recognized during pre-preparing. During training, a batch size of 32 and a number of epochs of 25 are utilized. Moreover, we likewise utilize early pausing and model checkpointing in view of the approval misfortune, which gives us During the training, we also record the model's accuracy. These models' capabilities may be enhanced 
+When working with a dataset of images, the graphics processing unit (GPU) should be used rather than the central processing unit (CPU). This is because GPUs permit multiple parallel computations, which makes training and inference faster. We utilize the free GPUs given by Kaggle and Google Collab for our analyses. Ultimately, we utilize the LIME technique to comprehend the forecasts made by our best model. For this, we utilize 1000 examples in the LIME strategy from the lime bundle, and we really take a look at the emphatically weighted sections towards the anticipated class. After that, we plot the top ten crucial sections on the image and present them to the application. However, the application only uses 249 samples because of computation limitations. LIME provides better explanations with larger numbers of samples.
+3) A Recommendation for Fertilizer: Dataset Depiction: We use a custom dataset3 with five features for fertilizer recommendation: crop, nitrogen, phosphorus, potassium, pH, and soil moisture. There are 22 crops, including coffee beans, rice, and maize. with their ideal values for N, P, and K. The data set shows how much N, P, and K should be in the soil for the crop to grow the most effectively. The farmer should use a fertilizer based on the N, P, or K value that is lacking.
+Approach: To select the most effective fertilizer for a plant, we employed rule-based classification, a classification scheme that makes use of IF-THEN rules for class prediction. A fertilizer may be required depending on how far a plant is from its ideal N, P, or K value. For our motivations, we have 6 sorts of manure suggestions right now, in view of whether the N/P/K qualities are high or low.
 
 
-- ### Disease Detection system
-![demo](https://media.giphy.com/media/NnMwEp2tGZdfnJbyjr/giphy.gif)
+##V.	CONCLUSION AND FUTURE WORK 
+The "Farmer's Assistant" is a user-friendly web application system based on machine learning and web scraping that we propose in this paper. We can give a few elements our framework, including crop illness location utilizing an Effective Net model on leaf pictures, compost suggestion utilizing a standard based grouping framework, and harvest proposal utilizing the Irregular Timberland calculation. By using our user interface, the user can quickly get their results by filling out forms. 
+Additionally, we utilize the LIME interpretability strategy to make sense of our forecasts on the sickness identification picture. We might be able to improve datasets and models that make use of this information and understand why our model states what it does. 
+Even though our application runs very smoothly, there are many ways we can make it better. First, we can suggest fertilizer and crop recommendations that can be found on popular online shopping sites. 
+Users may also be able to make direct purchases of fertilizers and crops through our app. Another way fertilizer recommendation can be improved is if we can find data on the various brands and products that are available based on the N, P, and K values. We currently only provide six types of proposals; however, in the future, we should be able to use sophisticated AI frameworks to provide better suggestions.
+Following that, we come to the realization that the dataset we used to classify diseases is incomplete. This suggests that only images belonging to classes that our model already understands perform well. It will not be able to correctly classify data that is outside the domain. There are two options for dealing with this problem in the future. Finding extra datasets with different harvests or potentially infections at comparable scales or producing and scaling those datasets utilizing generative demonstrating to add to our preparation set is one choice. As a result, our model's ability to generalize will improve. The next option is for customers to be able to add their own images by entering our web application and commenting on the actual images. 
+Also, it has been exhibited that LIME clarifications all by themselves are not generally reliable because of the way that they just give nearby data about a model and don't resolve the worldwide issues the model spotlights on. Grad CAM and Integrated Gradients are two additional methods that we can use as a result. or additional training techniques like LIME's sparse-linear layers to better explain our model predictions Last but not least, we plan to offer diseased dataset segmentation on a more fine level. 
+Due to a lack of such data, this is currently impossible. However, we are able to incorporate a segmentation annotation tool into our application to allow users to help us fill the void. Additionally, with the assistance of a few unsupervised algorithms, we are able to identify the image's diseased regions. In the upcoming work, we intend to include these highlights and fill in the gaps.
 
-
-
-## Contribute 👨‍💻
-Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Usage ⚙️
-You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
-
-## Further Improvements 📈
-This was my first big project so there are lot of things to improve upon
-
-- CSS code is totally messed up :pensive: (some code in file and some inline)
-- Frontend can be made more nicer (PS: I suck at frontend development) :cry:	
-- More data can be collected manually via web scrapping to make the system more accurate :monocle_face:	
-- Additional plant images can be collected to make the disease detection part more robust and generalized :face_with_head_bandage:
-- Modularized code can be written instead of writing in Jupyter Notebooks (will follow this in upcoming projects)
-
-## Credits 💳
-This project is heavily inspired from **[this GitHub repository](https://github.com/7NNS7/Recommendation-System-for-Farming)** (especially the crop recommendation and fertilizer recommendation part). This project is an extended version of the above mentioned project. Please star the mentioned repo.
-
-## License 📝
-This project is licensed under [GNU (GENERAL PUBLIC LICENSE)](https://github.com/Gladiator07/Harvestify/blob/master/LICENSE).
-
-## Contact 📞
-
-#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/atharva-ingle-564430187/)
